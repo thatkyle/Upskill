@@ -1,0 +1,10 @@
+extends layout
+block content
+	if pagecontentChapter1welcome
+		include ../pagecontent/Chapter1/welcome.html
+	if pagecontenthello
+		include ../pagecontent/hello.html
+	if pagecontentsimple
+		include ../pagecontent/simple.html
+	else
+		h1 404 Page Not Found
